@@ -28,7 +28,7 @@ gzhu大一下程序设计课程设计
 
 并且...从要求中的某张图可以看到是个~~**祖传了13年**~~的课设（隔壁网安专业就就没这种历史包裹
 
-![祖 传 作 业](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled.png)
+![祖 传 作 业](./Untitled.png)
 
 最后我选择了最后一个也就是停车场管理系统。题目如下所示。
 
@@ -88,7 +88,7 @@ gzhu大一下程序设计课程设计
 
 照着题目所提的要求，构建两个类就行了。很简单的过程
 
-![Car & CarManager](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%201.png)
+![Car & CarManager](./Untitled%201.png)
 
 ### Controller 部分
 
@@ -96,7 +96,7 @@ gzhu大一下程序设计课程设计
 
 比如，其中的停车记录模块的初始化流程大致如下图
 
-![ParkingLog](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%202.png)
+![ParkingLog](./Untitled%202.png)
 
 除此之外还对登录状态进行了保存（`localStorage`），管理员的密码都用了MD5加密。
 
@@ -110,11 +110,11 @@ UI库就是用React了，由于该课程设计为面向对象程序设计，~~�
 
 React组件之间的关系如下，继承+组合
 
-![UML图](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%203.png)
+![UML图](./Untitled%203.png)
 
 React的大致生命周期如下图所示
 
-![LifeCycle](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%204.png)
+![LifeCycle](./Untitled%204.png)
 
 ## 问题记录
 
@@ -156,21 +156,21 @@ React的大致生命周期如下图所示
 
 ### User-side
 
-![主界面](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%205.png)
+![主界面](./Untitled%205.png)
 
-![检查车牌输入](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%206.png)
+![检查车牌输入](./Untitled%206.png)
 
-![离场提示](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%207.png)
+![离场提示](./Untitled%207.png)
 
-![离场成功](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%208.png)
+![离场成功](./Untitled%208.png)
 
 ### Admin-side
 
-![登录界面](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%209.png)
+![登录界面](./Untitled%209.png)
 
-![停车记录](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%2010.png)
+![停车记录](./Untitled%2010.png)
 
-![图表显示](https://cdn.jsdelivr.net/gh/situ2001/assets/img/oo-course-design/Untitled%2011.png)
+![图表显示](./Untitled%2011.png)
 
 其实本文通篇没有提到布局是因为当时并不是很会布局。。。
 
