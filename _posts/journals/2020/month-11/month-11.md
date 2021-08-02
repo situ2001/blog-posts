@@ -73,7 +73,7 @@ categories: 月记
 
 适逢双十一，在周二当天剁手了两部好物（自认为的）：飞利浦SHP9500和thinkplus 65W适配器
 
-<img src="https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108184005.jpg" alt="合影留念" style="zoom:20%;" />
+![合影留念](./20201108184005.jpg)
 
 前者在宿舍固定场所听歌是真的香，佩戴极其舒适，并且也很透气，虽然是开放式耳机，但是我的座位在角落，不开大声听，舍友就~~几乎~~听不到了
 
@@ -92,11 +92,11 @@ categories: 月记
 
 下面放点照片吧(抱歉MI6的祖传绿)
 
-<img src="https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108184054.jpg" alt="高素质屏幕" style="zoom:20%;" />
+![高素质屏幕](./20201108184054.jpg)
 
-<img src="https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108184142.jpeg" alt="性能对比" style="zoom:20%;" />
+![性能对比](./20201108184142.jpeg)
 
-<img src="https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108184115.jpeg" alt="肥宅快乐观影时刻" style="zoom:20%;" />
+![肥宅快乐观影时刻](./20201108184115.jpeg)
 
 ### 睡醒遇到新生赛
 
@@ -116,19 +116,19 @@ categories: 月记
 
 其一就是去参加了2020年的Google Devfest嘉年华活动。活动在天河科技成果转化基地1L举行。这次盛会，有挺多大佬上台做presentation，他们提到了许多我没有听过或者用过的前沿技术---比如用于单片机的机器学习TinyML，做UI的flutter和dart，听大佬介绍了一下Linux foundation和open source，让我感受到开源并不是在用爱发电，而是实实在在地为世界做贡献
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201122224106.jpg)
+![](./20201122224106.jpg)
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201122224110.jpg)
+![](./20201122224110.jpg)
 
 图片在这个链接里面：[点击进入](https://gallery.vphotos.cn/vphotosgallery/index.html?vphotowechatid=0B42B6CCC348209AA075861E73D5CACF#/gallerypc)
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201122224158.jpg)
+![](./20201122224158.jpg)
 
 图有点多，就放张有华点的图吧
 
 当然啦，还有真香的Google周边，有人手一份的，也有限量的，要去活动集市打卡签到齐了才会有，可惜去晚了。当然晚了也有晚了的好处，拿到了最后的一件限量衣服（可惜是M码，只能当纪念品了
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201122224051.jpg)
+![](./20201122224051.jpg)
 
 然后还参加了最后一天的活动tensorflow day，也是有一点收获的，比如里面提到了这么一句话
 
@@ -140,15 +140,15 @@ categories: 月记
 
 现在虽然有各种任务和事情，还没有入门tf，但是我认为这个工具，在以后还是要学习学习的
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201122224036.jpg)
+![](./20201122224036.jpg)
 
 然后tindy2013想来看看这Devfest，就前来广州玩耍，于是便带他出去玩耍了两天，吃了好多垃圾食品
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201122224019.jpg)
+![](./20201122224019.jpg)
 
 到了我心目中的未来的单身狗房间，就是tindy2013住的旅馆房间~~简直是单身狗未来的好房间~~
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201122223955.jpg)
+![](./20201122223955.jpg)
 
 但是这快乐的几天，换来的却是近一周的疲惫不堪。所以旅游，不过是**用疲惫换见识**罢了(暴论)
 
@@ -222,7 +222,7 @@ categories: 月记
 
 我一下就找到了最佳起床时间，那就是早课7点半的起床，头一两天有那么一点难受，到后面就好起来了，并且可以减掉回宿舍睡觉的时间和路程。结合一下GZHU那短的可怕的12:00-13:50午饭午休时间~~，这张图真的是应景。~~
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201129135035.jpg)
+![](./20201129135035.jpg)
 
 除了能节省时间，还有几个好处：
 

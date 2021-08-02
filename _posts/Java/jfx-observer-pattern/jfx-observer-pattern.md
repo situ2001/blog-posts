@@ -123,7 +123,7 @@ public abstract class ReadOnlyDoubleProperty extends DoubleExpression implements
 public class ReadOnlyDoubleWrapper extends SimpleDoubleProperty
 ```
 
-![ReadOnlyDoubleWrapper](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20210113131956.png)
+![ReadOnlyDoubleWrapper](./20210113131956.png)
 
 由上可见，`ReadOnlyDoubleProperty`是一个抽象类，而`ReadOnlyDoubleWrapper`是一个concrete的实实在在的类。通过下面的分析可以查出，一个`ReadOnlyDoubleWrapper`是如何被construct的。
 
@@ -194,7 +194,7 @@ All Implemented Interfaces:
 NumberExpression, Observable, ReadOnlyProperty<Number>, ObservableDoubleValue, ObservableNumberValue, ObservableValue<Number>
 ```
 
-![ReadOnlyPropertyImpl](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20210113132012.png)
+![ReadOnlyPropertyImpl](./20210113132012.png)
 
 啊，因为在Stage里头的width需要更改，所以要是个可读可写的property。但可以用一个内部私有类，把一个property肛成一个read-only property。并根据dynamic binding将`ObservableDoubleValue`和`ReadOnlyProperty`里头的方法给实现掉（原先是在类`DoublePropertyBase`和`SimpleDoubleProperty`里头实现的）。实在是妙！
 
@@ -424,7 +424,7 @@ ExpressionHelper.fireValueChangedEvent(helper);//breakpoint here
 
 从Frame来看，我的思路被验证了，是正确的
 
-![Debug](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20210113132029.jpg)
+![Debug](./20210113132029.jpg)
 
 ## 亲手试错
 

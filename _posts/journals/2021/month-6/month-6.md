@@ -30,15 +30,15 @@ categories: 月记
 
 这个月，广州经常下雨，南方进入汛期了嘛，很正常。
 
-![下带雨](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/20210616_123103.jpg)
+![下带雨](./20210616_123103.jpg)
 
 只不过，这个防洪措施啊，naive
 
-![水漫金山](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/1622545057301.jpg)
+![水漫金山](./1622545057301.jpg)
 
 只不过，就拿个外卖的时间，都能从白天变黑夜。。。
 
-![阴阳分隔](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/20210602_184303.jpg)
+![阴阳分隔](./20210602_184303.jpg)
 
 ## 考试周 X 课设周
 
@@ -60,7 +60,7 @@ categories: 月记
 
 大概长这个样子...
 
-![臭车场](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/course_design.png)
+![臭车场](./course_design.png)
 
 然鹅最后发朋友圈的时候才发现，我犯了最脑抽的off-by-one error，那就是--`Date.prototype.getMonth`返回的结果是从0开始的，导致整个应用的日志显示页面都是5月（做课设的时候是6月但是我竟然没有注意到这个问题
 
@@ -76,7 +76,7 @@ categories: 月记
 
 ~~因为天天赖床到十点多十一点啊~~
 
-![你看下半旬的那个凸起啊...](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/Screenshot_Samsung_Health.jpg)
+![你看下半旬的那个凸起啊...](./Screenshot_Samsung_Health.jpg)
 
 一般来说，有光的时候，人就会自然醒来，但是没有光的话，要做到自然醒还是比较艰难吧。
 
@@ -90,7 +90,7 @@ categories: 月记
 
 这个学期最让我感到满意的就是每日抽出时间出来用Anki记记单词了，虽然只是混了个眼熟，但是好过没有混啊（下个目标就是理解透彻常用单词的意思
 
-![每日打卡](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/anki_stat.png)
+![每日打卡](./anki_stat.png)
 
 ~~要是我的git commit graph也是这个样子就好了~~
 
@@ -102,11 +102,11 @@ categories: 月记
 
 也是第一次坐榻榻米呢，感觉还不错，~~可以不用穿鞋子了~~
 
-![内部装横](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/20210712_170413.jpg)
+![内部装横](./20210712_170413.jpg)
 
 额怎么说呢，寿司和饭都有点小贵，不过听说这家餐厅是某科学认证的餐厅（并且据说刚开张的时候人满为患门口排长龙），所以贵了点也很正常，实际吃起来味道也是不错的。~~就是分量小了些~~
 
-![味道不错](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/20210712_173052.jpg)
+![味道不错](./20210712_173052.jpg)
 
 个人不是很喜欢那种加了各种海鲜的寿司吧，只点了个三文鱼寿司和肥牛饭（要是有肉松寿司就好了QAQ
 
@@ -116,8 +116,8 @@ categories: 月记
 
 接着就是约了高中同学一起坐高铁回家了
 
-![广州南](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/20210713_125650.jpg)
+![广州南](./20210713_125650.jpg)
 
 时隔两个多月，终于又回到了熟悉的家乡。
 
-![下车 回家](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-06/20210713_145449.jpg)
+![下车 回家](./20210713_145449.jpg)

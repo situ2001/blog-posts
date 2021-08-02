@@ -32,4 +32,4 @@ categories: 月记
 
 附个湿度
 
-![湿度](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20210330234203.jpg)
+![湿度](./20210330234203.jpg)

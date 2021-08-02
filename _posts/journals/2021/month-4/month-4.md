@@ -42,21 +42,21 @@ categories: 月记
 
 先是去了华南植物园
 
-![正门](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210403_142652.jpg)
+![正门](./20210403_142652.jpg)
 
 放眼望去——树树树树树，草草草草草（
 
 就放朵flower和leaf吧
 
-![花(哇)](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210403_151034.jpg)
+![花(哇)](./20210403_151034.jpg)
 
-![叶(耶)](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210403_145458-min.jpg)
+![叶(耶)](./20210403_145458-min.jpg)
 
 在里面走了一个下午，由于没有带学生证，获得不了优惠，只能先不买热带温室区的门票了。不过其他地方走完，估计要三四小时，我走了一下午，才勉强走了一圈。。。出来的时候，手机尿崩完了，我也累崩了（
 
 然后顺路去了广工的龙洞校区，见到了高中同学。
 
-![GDUT龙洞校区](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210403_172123.jpg)
+![GDUT龙洞校区](./20210403_172123.jpg)
 
 他带我看了一下周围的景色，
 
@@ -68,9 +68,9 @@ categories: 月记
 
 这次不错，可以说是几乎把整个景点都走了个遍，就放几张夜景吧
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210404_181835.jpg)
+![](./20210404_181835.jpg)
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210404_202706.jpg)
+![](./20210404_202706.jpg)
 
 ---
 
@@ -116,17 +116,17 @@ categories: 月记
 
 还有一点吹爆，2021没有啥小屏旗舰了，就魅族（~~珠海三星~~）18，三星s21和水果12mini了。其他厂家什么时候照顾一下小屏党啊。S21宽度和米6完全一致，仅仅是只长了一点，真香~
 
-![什么是小屏旗舰啊](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210429_213613.jpg)
+![什么是小屏旗舰啊](./20210429_213613.jpg)
 
 哦对了，由于OneUI的功能过于强大~~且复杂~~，所以买机之后得来一本这个
 
-![三 星 使 用 手 册](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/3f4343d9838d1124d3f575dc56cdaab0.jpg)
+![三 星 使 用 手 册](./3f4343d9838d1124d3f575dc56cdaab0.jpg)
 
 ---
 
 然后在这个月底，买入了一块wacom的蓝牙数位板，本意是体验无纸化办公和画画~~还有osu~~的，但是蓝牙功能在我的笔记本上面出现了玄学的问题，时不时会让本本屏幕冻掉，不过鼠标还能移动，键盘也有反应。过两三分钟按下电源键进入睡眠再唤醒就好了。没搞明白是什么问题，只能问客服和技术支持，他们也是一问三不知...最后他们同意让我退货了，（jd的这个商品本来就支持七天无理由啊
 
-![留个合影](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210426_195533.jpg)
+![留个合影](./20210426_195533.jpg)
 
 粉色好香，可惜在我的本本上work得不好
 
@@ -142,7 +142,7 @@ categories: 月记
 
 我印象深刻的是，物理实验老师看到我不会用，就说我不行，然后过了一下，看我使用流畅，就又说这位同学用得很熟练啊。（没有预习系列）...（宁就是双标带师？）
 
-![示波器(有一中3号楼的感觉)](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210423_151519.jpg)
+![示波器(有一中3号楼的感觉)](./20210423_151519.jpg)
 
 数电实验可以说是接线练习了。因为原理懂了，并且电路图也在黑板上面，那我人还在课室有什么意义？接线啊！（又有一中3号楼的感觉
 
@@ -210,9 +210,9 @@ C++实验的话，就是连续两大节的课，但是要吐槽的是，为什�
 
 倘若一个月就是一天，那么现在应该就是之前害怕得不行，现在却从黄昏背后探出头来的午夜吧。
 
-![月末的黄昏](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210429_180100.jpg)
+![月末的黄昏](./20210429_180100.jpg)
 
-![魔旅黄昏(划去)](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/Screenshot_20210402-203133.jpg)
+![魔旅黄昏(划去)](./Screenshot_20210402-203133.jpg)
 
 ---
 
@@ -223,9 +223,9 @@ C++实验的话，就是连续两大节的课，但是要吐槽的是，为什�
 
 最后无端用天气来~~哲学了一波~~，结果第二天就出现了日晕？
 
-![日晕--超广角](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210430_121043.jpg)
+![日晕--超广角](./20210430_121043.jpg)
 
-![日晕--广角](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/20210430_121023.jpg)
+![日晕--广角](./20210430_121023.jpg)
 
 希望是个好兆头（不过我不是迷信的人）
 
@@ -236,4 +236,4 @@ C++实验的话，就是连续两大节的课，但是要吐槽的是，为什�
 
 附上月度湿度图
 
-![湿度](https://cdn.jsdelivr.net/gh/situ2001/assets/img/monthly_notes/2021-04/humidity.jpg)
+![湿度](./humidity.jpg)
