@@ -339,7 +339,7 @@ div div div {
 
 页面长这个样子，如图所示。
 
-![原始页面](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201128195627.png)
+![原始页面](./20201128195627.png)
 
 然后我们给son2加上这么一段css
 
@@ -349,13 +349,13 @@ left: 40px;
 top: 120px;
 ```
 
-![此时的参照物为body](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201128195646.png)
+![此时的参照物为body](./20201128195646.png)
 
 如图所示，son3直接顶上来了，son2仿佛就像是“跳”出了文档本身一样，并且以页面（此时没有其他的father设置了non-static的position）左上角，相对左边向右偏移了40px，相对上面向下偏移了120px
 
 如果我们把`position`改为`relative`，那么便会出现下图的情况
 
-![此时的参照物为原来的自己](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201128195703.png)
+![此时的参照物为原来的自己](./20201128195703.png)
 
 可以看出，son2在文档原本的位置依旧存在，只不过son2以原位置，右偏移了40px且向下偏移了120px
 
@@ -383,14 +383,14 @@ top: 100%;
 
 就会出现下图的这种情况
 
-![此时的参照物为grandpa](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201128195749.png)
+![此时的参照物为grandpa](./20201128195749.png)
 
 此时百分比是**占得father的宽度和高度**
 
 但是我们把son2改成`position: relative`的话，发现son2只向右移动了一个father宽度的像素而没有额外的下移
 
-![此时的参照物为原来的自己](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201128195812.png)
+![此时的参照物为原来的自己](./20201128195812.png)
 
 思考了一下，既然这个属性百分比是继承父类的属性，那father肯定没有加height，一查，果然如此，给father加个`height: 335px`之后，果然好了。
 
-![此时的参照物为原来的自己](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201128195817.png)
+![此时的参照物为原来的自己](./20201128195817.png)

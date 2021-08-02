@@ -54,13 +54,13 @@ categories: 笔记
 
 我觉得官网上面的这个图画的挺厉害的，就收下来了
 
-![Object 选自json官网](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201127193252.png)
+![Object 选自json官网](./20201127193252.png)
 
 ### Array
 
 数组嘛，见得太多了，就不多说了，跟`[ele1, ele2 ... eleN]`这东西长得是差不多的，只不过其中的元素就是名次/值pair
 
-![Array 选自json官网](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201127193253.png)
+![Array 选自json官网](./20201127193253.png)
 
 ### Value
 
