@@ -155,7 +155,7 @@ Hi situ2001! You've successfully authenticated, but GitHub does not provide shel
 
 首先先在github上建立一个这样的仓库
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201003114117.png)
+![](./20201003114117.png)
 
 repo的name是 yourusername.github.io ，并且这个repo要是Public的，填完之后点击 Create Repository 按钮就行了
 
@@ -165,7 +165,7 @@ repo的name是 yourusername.github.io ，并且这个repo要是Public的，填�
 
 再调一下 repo 里面的 setting ，进入 setting 之后一直往下跑就看到了
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201003151605.png)
+![](./20201003151605.png)
 
 主要是设置一下 source folder 和 branch 之类的，可以直接加一个HTTPS，也支持自定义域名
 
@@ -203,7 +203,7 @@ update: CNAME文件会在deploy之后被覆盖，翻了一下，发现`hexo depl
 
 如下图所示
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201003174322.png)
+![](./20201003174322.png)
 
 ## 图床配置 (Optional)
 
@@ -282,7 +282,7 @@ Alternative: 也可以在github pages的repo下，把deployment的branch设置�
 
 如果你想git clone下来一堆或者push一堆node_moudle，请忽略此步
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201003182803.png)
+![](./20201003182803.png)
 
 该文件的作用如文件名本身，可以忽略上传的文件/文件夹
 

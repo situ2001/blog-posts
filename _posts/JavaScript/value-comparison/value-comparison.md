@@ -15,7 +15,7 @@ inspired by 海绵宝宝meme（
 
 如图所示（其实是因为不熟悉，导致平时用起来有点抗拒
 
-![MEME](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20210424234347.png)
+![MEME](./20210424234347.png)
 
 好啦，meme归meme，那么JS这令人诟病的值比较究竟是怎么样的呢？
 

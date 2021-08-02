@@ -34,15 +34,15 @@ categories: 随笔
 下意识想到是不是有可能是302跳转，如果是这样的话，直接F12看看跳转部分有啥就行
 果不其然，在header的部分找到了flag
 
-![世界上最好的语言(?)](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108145848.png)
+![世界上最好的语言(?)](./20201108145848.png)
 
 ### 二次元? 二刺猿
 
 题目如图所示
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108145907.png)
+![](./20201108145907.png)
 
-![不 愧 是 你](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108145856.png)
+![不 愧 是 你](./20201108145856.png)
 
 hint如下，我表示这是GHS的行为 ~~赤裸裸的扒裤子~~
 
@@ -54,13 +54,13 @@ hint如下，我表示这是GHS的行为 ~~赤裸裸的扒裤子~~
 
 先冷静一下，进行第一次尝试，会不会是这se图的高度被改掉了？查看一下分辨率，其高度是1754，十六进制转换过去就是06DA，于是把06DA扔入搜索框内进行搜索，果不其然在开头部分找到了
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108145926.png)
+![](./20201108145926.png)
 
 那么图片高度属性应该就可以通过修改这个hex值进行更改了
 
 过于疲惫，做人要暴力一点，直接把06更成0F再保存（
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108145935.png)
+![](./20201108145935.png)
 
 一瞬爆出flag
 
@@ -78,11 +78,11 @@ hint如下，我表示这是GHS的行为 ~~赤裸裸的扒裤子~~
 
 解开之后，根据高中用app inventor(?)写apk现在用AS的我的一点经验，~~直接搜索筛选较大文件啊这apk这么小~~
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108145950.png)
+![](./20201108145950.png)
 
 最后找出了flag所在图，图片名为f，~~我表示我的此刻的心情也是F~~
 
-![](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108145959.png)
+![](./20201108145959.png)
 
 ### g2uc_android2
 
@@ -148,11 +148,11 @@ public class Test {
 
 新手上路也只能做这么多了
 
-![惨不忍睹1](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108150040.png)
-![惨不忍睹2](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108150044.png)
+![惨不忍睹1](./20201108150040.png)
+![惨不忍睹2](./20201108150044.png)
 
 也就这样了，希望前排的大佬能带带萌新
 
-![求带](https://cdn.jsdelivr.net/gh/situ2001/assets/img/20201108150102.png)
+![求带](./20201108150102.png)
 
 ~~先溜去把一团糟的笔记本环境整理一下了~~

@@ -17,7 +17,7 @@ categories: 数据结构与算法
 
 先确定一个位置上的数，接着处理后续位置的元素。即在n个元素的数组中，找出n个元素的最大值或最小是，排到第1个元素位置上，然后屏蔽第1个元素，从第2个元素起，找出剩下n-1个元素的最大值，排在第2个元素的位置上面...以此类推
 
-![选择排序](https://cdn.jsdelivr.net/gh/situ2001/assets/img/sorting/Selection-Sort.gif)
+![选择排序](./Selection-Sort.gif)
 
 ```javascript
 function selectionSort(nums) {
@@ -45,7 +45,7 @@ function selectionSort(nums) {
 
 数组分为了排序好了的部分(前)和未排序的部分(后)，从未排序部分中取出一个元素，逐一与排序好了的部分的元素进行比较，以插入该部分中去。
 
-![插入排序](https://cdn.jsdelivr.net/gh/situ2001/assets/img/sorting/Insertion-Sort.gif)
+![插入排序](./Insertion-Sort.gif)
 
 ```javascript
 function insertionSort(nums) {
@@ -69,7 +69,7 @@ function insertionSort(nums) {
 
 可以把数组想象为横着的水池，数组的相邻元素进行两两比较，里面较大或较小的元素就会慢慢地“浮”到最右边或最左边
 
-![冒泡排序](https://cdn.jsdelivr.net/gh/situ2001/assets/img/sorting/Bubble-Sort.gif)
+![冒泡排序](./Bubble-Sort.gif)
 
 不过，我们可以考虑一下，不与排好了的部分进行比较
 
@@ -110,7 +110,7 @@ function bubbleSort(nums) {
 
 这个排序涉及到分治(Divide-and-Conquer即分而治之)的方法。将数组进行分割然后进行排序，之后将排序的结果一个一个地合并起来
 
-![归并排序](https://cdn.jsdelivr.net/gh/situ2001/assets/img/sorting/Merge-Sort.png)
+![归并排序](./Merge-Sort.png)
 
 代码实现如下，使用递归，将数组分开与合并
 
@@ -159,7 +159,7 @@ function merge(nums1, nums2, tmp) {
 2. 对该数组进行排序---小于或等于该主元的元素成为子数组1(不包括主元)，大于主元元素的元素成为子数组2
 3. 如果这些个数组的长度依旧大于1，继续对该两个数组进行该操作
 
-![快速排序](https://cdn.jsdelivr.net/gh/situ2001/assets/img/sorting/Quick-Sort.gif)
+![快速排序](./Quick-Sort.gif)
 
 伪代码如下
 
@@ -233,7 +233,7 @@ function partition(nums, first, last) {
 
 下图(By Kelott - Own work, CC BY-SA 4.0, [https://commons.wikimedia.org/w/index.php?curid=99968794](https://commons.wikimedia.org/w/index.php?curid=99968794))
 
-![Heap](https://cdn.jsdelivr.net/gh/situ2001/assets/img/sorting/Heap.png)
+![Heap](./Heap.png)
 
 上面的这个图片表示的就是一个Heap，还有有父子节点在数组上的关系
 
@@ -316,7 +316,7 @@ class Heap {
 
 把数据都分开到几个桶里头
 
-![桶排序](https://cdn.jsdelivr.net/gh/situ2001/assets/img/sorting/Bucket-Sort.png)
+![桶排序](./Bucket-Sort.png)
 
 分别对这几个桶进行排序，接着把排序好的结果归到一起。完成排序。
 
@@ -377,7 +377,7 @@ function insertionSort(nums) {
 
 如果我们只需要进行数字的排序的话，我们就可以用基数排序。这个是稳定的算法，在时间上，复杂度为O(dn)，d为位数
 
-![基数排序](https://cdn.jsdelivr.net/gh/situ2001/assets/img/sorting/Radix-Sort.gif)
+![基数排序](./Radix-Sort.gif)
 
 自己写的伪代码...
 
