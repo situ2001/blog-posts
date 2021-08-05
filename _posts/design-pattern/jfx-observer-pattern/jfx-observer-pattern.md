@@ -4,7 +4,7 @@ comments: true
 date: 2021-01-14 05:14:19
 tags:
 permalink: contents/cab8b78811bf/
-categories: Java
+categories: 设计模式
 ---
 
 大一菜鸡，竟敢作死读源码
