@@ -4,7 +4,7 @@ comments: true
 date: 2021-07-29 21:39:51
 tags:
 description: 流水的课设 手打的代码
-permalink: contents/681cffee64ff/
+permalink: 681cffee64ff/
 categories: 笔记
 ---
 

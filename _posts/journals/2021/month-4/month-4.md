@@ -2,7 +2,7 @@
 title: 辛丑年 四月
 comments: false
 date: 2021-04-29 21:30:00
-permalink: contents/monthly_notes/2021-04/
+permalink: monthly_notes/2021-04/
 categories: 月记
 ---
 

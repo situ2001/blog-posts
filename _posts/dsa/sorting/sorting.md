@@ -3,7 +3,7 @@ title: 常见的排序算法
 comments: true
 date: 2021-05-12 15:30:00
 tags:
-permalink: contents/9c4c35cd7c7d/
+permalink: 9c4c35cd7c7d/
 categories: 数据结构与算法
 ---
 

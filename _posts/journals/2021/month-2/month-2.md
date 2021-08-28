@@ -2,7 +2,7 @@
 title: 辛丑年 二月
 comments: false
 date: 2021-03-02 09:30:30
-permalink: contents/monthly_notes/2021-02/
+permalink: monthly_notes/2021-02/
 categories: 月记
 ---
 

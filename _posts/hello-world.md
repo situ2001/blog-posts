@@ -2,7 +2,7 @@
 title: Hello World
 date: 2020-09-12 16:45:32
 tags:
-permalink: contents/3861b188dd27/
+permalink: 3861b188dd27/
 ---
 
 文章们终于能有一个家了

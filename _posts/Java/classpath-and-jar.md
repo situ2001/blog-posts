@@ -3,7 +3,7 @@ title: classpath和jar
 comments: true
 date: 2021-02-28 18:00:00
 tags:
-permalink: contents/7db3c9ea2bf1/
+permalink: 7db3c9ea2bf1/
 categories: Java
 ---
 

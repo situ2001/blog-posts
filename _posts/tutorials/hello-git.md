@@ -2,7 +2,7 @@
 title: git快速上手
 date: 2020-11-18 20:54:40
 tags:
-permalink: contents/bd5b790794cf/
+permalink: bd5b790794cf/
 categories: 教程
 ---
 

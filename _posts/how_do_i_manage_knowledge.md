@@ -3,7 +3,7 @@ title: 我是如何进行知识管理的
 comments: true
 date: 2021-03-29 10:00:00
 tags:
-permalink: contents/729ea92e9046/
+permalink: 729ea92e9046/
 categories: 分享
 ---
 

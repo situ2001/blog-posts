@@ -3,7 +3,7 @@ title: Command设计模式
 comments: true
 date: 2021-08-05 08:54:19
 tags:
-permalink: contents/4ab8b28aa1bf/
+permalink: 4ab8b28aa1bf/
 description: 通过一个简单的文本编辑器来认识该Command设计模式
 categories: 设计模式
 ---

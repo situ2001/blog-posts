@@ -2,7 +2,7 @@
 title: 初识继承与多态
 date: 2020-10-14 19:00:00
 tags:
-permalink: contents/49e5f4612660/
+permalink: 49e5f4612660/
 categories: Java
 ---
 

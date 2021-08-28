@@ -2,7 +2,7 @@
 title: 辛丑年 五月
 comments: false
 date: 2021-06-02 15:54:32
-permalink: contents/monthly_notes/2021-05/
+permalink: monthly_notes/2021-05/
 categories: 月记
 ---
 

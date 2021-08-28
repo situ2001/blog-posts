@@ -3,7 +3,7 @@ title: C语言之数组与指针
 comments: true
 date: 2020-12-05 15:44:12
 tags: 
-permalink: contents/d34f10f99adc/
+permalink: d34f10f99adc/
 categories: 笔记
 ---
 

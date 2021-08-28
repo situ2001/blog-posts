@@ -3,7 +3,7 @@ title: 庚子年 十月
 date: 2020-10-24 22:27:48
 tags:
 comments: false
-permalink: contents/monthly_notes/2020-10/
+permalink: monthly_notes/2020-10/
 categories: 月记
 ---
 

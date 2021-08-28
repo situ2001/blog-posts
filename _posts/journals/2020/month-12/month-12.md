@@ -2,7 +2,7 @@
 title: 庚子年 腊月
 comments: false
 date: 2020-12-05 21:04:13
-permalink: contents/monthly_notes/2020-12/
+permalink: monthly_notes/2020-12/
 categories: 月记
 ---
 
