@@ -176,11 +176,7 @@ OO如此抽象的概念，是不是要实操一下才能更好地掌握它呢？
 
 ~~Emacs用户震怒~~
 
-再吐槽一下其他的一些词语，举几个栗子
-
-Robust 为什么叫鲁棒性？叫做健壮或者可靠性不好吗？（~~整得跟个地名人名一样~~）
-
-Default 为什么叫缺省？叫做默认设置不好吗？（柯林斯解释：In computing, the default is **a particular set of instructions** which the computer always uses unless the person using the computer gives other instructions. ）
+再吐槽一下其他的一些词语，举几个栗子 —— 鲁棒性、缺省、套接字、句柄（
 
 所以，如果英语底子还行的话，可以考虑英文影印版，现在机工也在售，大概比中文版贵了几十来块吧。
 
@@ -196,4 +192,4 @@ Default 为什么叫缺省？叫做默认设置不好吗？（柯林斯解释：
 
 ## 最后
 
-再次感谢这本书，感谢梁勇老师，我真的是从您的书中受益匪浅啊！！
+再次感谢这本书，感谢梁勇老师，您的书让我受益匪浅！
