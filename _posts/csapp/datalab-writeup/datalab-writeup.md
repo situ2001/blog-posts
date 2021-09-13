@@ -1,10 +1,10 @@
 ---
 title: Writeup for datalab
 comments: true
-date: 2021-09-13 10:10:44
+date: 2021-09-13 17:10:00
 tags: 
 permalink: b6ff43544fda/
-description: datalab事后复盘
+description: CS:APP的datalab事后复盘
 categories: CS:APP
 ---
 
@@ -102,7 +102,7 @@ int tmin(void) {
 
 补码数的二十转换公式如下
 
-$$B2T_w(x)=2^{w-1}*x_{w-1}+\sum^{w-2}_{i=0}2^{i}*x_i$$
+$$B2T_w(x)=-2^{w-1}*x_{w-1}+\sum^{w-2}_{i=0}2^{i}*x_i$$
 
 ### isTmax
 
