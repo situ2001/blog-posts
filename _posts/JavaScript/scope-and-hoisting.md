@@ -161,7 +161,7 @@ x = 114514;
 
 ### ES6
 
-ES6加了块作用域，虽然`let`, `const`, `class`这些声明**也会提升**，但是只**等价**于提升到块级作用域的开头——临时死区TDZ(Temporary Dead Zone)。在被赋值前访问，会出现错误。比如
+ES6加了块作用域，虽然`let`, `const`, `class`这些声明**也会提升**，但是只**等价**于提升到块级作用域的开头，赋值前的区域就叫做临时死区TDZ(Temporary Dead Zone)。`let`和`const`声明的变量或常量在被赋值前访问，会出现错误（`class`不会）。比如
 
 ``` javascript
 { // TDZ starts at beginning of scope
