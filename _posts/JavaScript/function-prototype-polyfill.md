@@ -118,10 +118,13 @@ bind(thisArg, arg1, ... , argN)
 
 大致思路是：先把当前的函数缓存下来。然后返回一个与缓存下来的函数形成闭包的函数。注意参数的处理。
 
-阅读了一下MDN，认为这里不需要做`this`的判断。
+~~我认为这里不需要做`this`的判断~~（中伏啦，要是invoke as a constructor怎么办
 
 ```javascript
 Function.prototype.bind_ = function(ctx, ...args) {
+    if (this instanceof Function.prototype.bind_) {
+        throw "Can not invoke this as a constructor";
+    }
     const this_ = this;
     return function fn(...args1) {
         if (this instanceof fn) {
