@@ -1,14 +1,14 @@
 ---
-title: Writeup for bomblab
+title: Writeup for BombLab
 comments: true
-date: 2021-10-23 17:10:00
+date: 2021-10-23 16:10:00
 tags: 
 permalink: cb3eed4c3a95/
-description: 拆炸弹...
+description: CS:APP实验之拆汇编炸弹
 categories: CS:APP
 ---
 
-## 前言
+## 开始之前
 
 大名鼎鼎的CS:APP Bomb Lab，即阅读汇编拆炸弹。
 
