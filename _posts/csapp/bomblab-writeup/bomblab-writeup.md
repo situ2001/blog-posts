@@ -156,7 +156,7 @@ objdump -d bomb > bomb.asm
 
 该阶段不难，读出大概意思就能解
 
-```nasm
+```text
 0000000000400ee0 <phase_1>:
   400ee0: 48 83 ec 08           sub    $0x8,%rsp
   400ee4: be 00 24 40 00        mov    $0x402400,%esi
@@ -183,7 +183,7 @@ objdump -d bomb > bomb.asm
 
 ## Phase 2
 
-```nasm
+```text
 0000000000400efc <phase_2>:
   400efc: 55                    push   %rbp
   400efd: 53                    push   %rbx
@@ -214,7 +214,7 @@ objdump -d bomb > bomb.asm
 
 这里可以看到一个函数`read_six_numbers`，顾名思义，这个函数是用来从input里头读取六个数字。我们来分析下这个函数到底做了啥。
 
-```nasm
+```text
 000000000040145c <read_six_numbers>:
   40145c: 48 83 ec 18           sub    $0x18,%rsp
   401460: 48 89 f2              mov    %rsi,%rdx
@@ -252,13 +252,13 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 首先在调用函数前，`phase_2`将栈顶指针给复制到了`%rsi`。
 
-```nasm
+```text
 400f02: 48 89 e6              mov    %rsp,%rsi
 ```
 
 然后在读取六个数字的函数调用sscanf之前，准备了一坨参数，可以看到偏移量都是4，妥妥的int整数
 
-```nasm
+```text
   # %rsi is %rsp
   401463: 48 8d 4e 04           lea    0x4(%rsi),%rcx
   401467: 48 8d 46 14           lea    0x14(%rsi),%rax
@@ -283,7 +283,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 果然如此，那我们继续看看汇编
 
-```nasm
+```text
   400f0a: 83 3c 24 01           cmpl   $0x1,(%rsp)
   400f0e: 74 20                 je     400f30 <phase_2+0x34>
   400f10: e8 25 05 00 00        callq  40143a <explode_bomb>
@@ -293,7 +293,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 然后执行下面这些语句，先把第二个元素的地址放入`%rbx`，然后`%rbp`为`%rsp + 0x18`，刚好是6个int整数的长度
 
-```nasm
+```text
   400f30: 48 8d 5c 24 04        lea    0x4(%rsp),%rbx
   400f35: 48 8d 6c 24 18        lea    0x18(%rsp),%rbp
   400f3a: eb db                 jmp    400f17 <phase_2+0x1b>
@@ -301,7 +301,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 然后跳转到这，开始循环，可以看到，前面的这几条语句是初始化循环。
 
-```nasm
+```text
   400f17: 8b 43 fc              mov    -0x4(%rbx),%eax
   400f1a: 01 c0                 add    %eax,%eax
   400f1c: 39 03                 cmp    %eax,(%rbx)
@@ -323,7 +323,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 ## Phase 3
 
-```nasm
+```text
 0000000000400f43 <phase_3>:
   400f43: 48 83 ec 18           sub    $0x18,%rsp
   400f47: 48 8d 4c 24 0c        lea    0xc(%rsp),%rcx
@@ -365,7 +365,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 我们把这汇编拆开几部分来分析，首先很容易看出这个
 
-```nasm
+```text
 400f5b: e8 90 fc ff ff        callq  400bf0 <__isoc99_sscanf@plt>
 ```
 
@@ -373,7 +373,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 再看看开头这一段汇编，这是为`sscanf`函数准备参数的过程。
 
-```nasm
+```text
 0000000000400f43 <phase_3>:
   400f43: 48 83 ec 18           sub    $0x18,%rsp
   400f47: 48 8d 4c 24 0c        lea    0xc(%rsp),%rcx
@@ -388,7 +388,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 接着便是比较返回值，如果成功接受的参数数目为2，那么就会跳过爆炸函数的调用。但是如果第一个参数小于1或大于7就会爆炸（注意，比较的指令为`ja`）
 
-```nasm
+```text
 400f60: 83 f8 01              cmp    $0x1,%eax
 400f63: 7f 05                 jg     400f6a <phase_3+0x27>
 400f65: e8 d0 04 00 00        callq  40143a <explode_bomb>
@@ -398,7 +398,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 接着，语句`mov  0x8(%rsp),%eax`便是把第一个数字给存到%eax里头。紧接着就出现这条语句
 
-```nasm
+```text
 400f71: 8b 44 24 08           mov    0x8(%rsp),%eax
 400f75: ff 24 c5 70 24 40 00  jmpq   *0x402470(,%rax,8)
 ```
@@ -422,7 +422,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 结合下面的这部分汇编，我们就可以看出这是一个switch语句，根据刚刚得到的信息，那么我们就可以进行标注。
 
-```nasm
+```text
   # x = 0
   400f7c: b8 cf 00 00 00        mov    $0xcf,%eax
   400f81: eb 3b                 jmp    400fbe <phase_3+0x7b>
@@ -464,7 +464,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 ## Phase 4
 
-```nasm
+```text
 000000000040100c <phase_4>:
   40100c: 48 83 ec 18           sub    $0x18,%rsp
   401010: 48 8d 4c 24 0c        lea    0xc(%rsp),%rcx
@@ -494,7 +494,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 看起来，前面这部分依旧是读取两个数字，如果没读齐两个数字，或者第一个数字没有小于等于14的话，炸弹就会爆炸。
 
-```nasm
+```text
 000000000040100c <phase_4>:
   40100c: 48 83 ec 18           sub    $0x18,%rsp
   401010: 48 8d 4c 24 0c        lea    0xc(%rsp),%rcx
@@ -511,7 +511,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 后半部分是构造好参数到寄存器里头，然后调用函数`func4`，接着比较返回值，如果返回值不为0就会爆炸。如果第二个数字不为0的话，炸弹也会爆炸。
 
-```nasm
+```text
   40103a: ba 0e 00 00 00        mov    $0xe,%edx
   40103f: be 00 00 00 00        mov    $0x0,%esi
   401044: 8b 7c 24 08           mov    0x8(%rsp),%edi
@@ -527,7 +527,7 @@ emm果然是六个数字啊，那我们就要看看，第三到第八个参数�
 
 我们看到函数调用的另外一个函数`func4`
 
-```nasm
+```text
 0000000000400fce <func4>:
   400fce: 48 83 ec 08           sub    $0x8,%rsp
   400fd2: 89 d0                 mov    %edx,%eax
@@ -599,7 +599,7 @@ int main()
 
 ## Phase 5
 
-```nasm
+```text
 0000000000401062 <phase_5>:
   401062: 53                    push   %rbx
   401063: 48 83 ec 20           sub    $0x20,%rsp
@@ -645,7 +645,7 @@ int main()
 
 先看看开头
 
-```nasm
+```text
 0000000000401062 <phase_5>:
   401062: 53                    push   %rbx
   401063: 48 83 ec 20           sub    $0x20,%rsp
@@ -665,14 +665,14 @@ int main()
 
 如果不爆炸的话，就会去到这里
 
-```nasm
+```text
   4010d2: b8 00 00 00 00        mov    $0x0,%eax
   4010d7: eb b2                 jmp    40108b <phase_5+0x29>
 ```
 
 然而这里继续跳转，跳转到下面这段代码，看起来是循环代码，如果条件没达到就循环执行，如果达到了条件就会执行`4010ac`下一句`4010ae`，这段汇编等下贴
 
-```nasm
+```text
   40108b: 0f b6 0c 03           movzbl (%rbx,%rax,1),%ecx
   40108f: 88 0c 24              mov    %cl,(%rsp)
   401092: 48 8b 14 24           mov    (%rsp),%rdx
@@ -708,7 +708,7 @@ for (int i = 0; i < 6; i++) {
 
 又刚刚提到了，上面的循环跳出之后，就会执行`4010ac`的下一句`4010ae`
 
-```nasm
+```text
   4010ae: c6 44 24 16 00        movb   $0x0,0x16(%rsp)
   4010b3: be 5e 24 40 00        mov    $0x40245e,%esi
   4010b8: 48 8d 7c 24 10        lea    0x10(%rsp),%rdi
@@ -739,7 +739,7 @@ for (int i = 0; i < 6; i++) {
 
 ## Phase 6
 
-```nasm
+```text
 00000000004010f4 <phase_6>:
   4010f4: 41 56                 push   %r14
   4010f6: 41 55                 push   %r13
@@ -836,7 +836,7 @@ for (int i = 0; i < 6; i++) {
 
 首先还是常见的输入六个数字，从前往后扫描，自顶向下地保存到栈里。
 
-```nasm
+```text
   4010fc: 48 83 ec 50           sub    $0x50,%rsp
   401100: 49 89 e5              mov    %rsp,%r13
   401103: 48 89 e6              mov    %rsp,%rsi
@@ -846,7 +846,7 @@ for (int i = 0; i < 6; i++) {
 
 然后便会碰到一个嵌套的循环
 
-```nasm
+```text
   40110e: 41 bc 00 00 00 00     mov    $0x0,%r12d
   401114: 4c 89 ed              mov    %r13,%rbp
   401117: 41 8b 45 00           mov    0x0(%r13),%eax
@@ -874,13 +874,13 @@ for (int i = 0; i < 6; i++) {
 
 外循环初始化为`i = 0`
 
-```nasm
+```text
   40110e: 41 bc 00 00 00 00     mov    $0x0,%r12d
 ```
 
 首先先检查了当前第i个数字是否满足大于0且小于等于6，注意第i个数字被保存到了`%rbp`上
 
-```nasm
+```text
   401114: 4c 89 ed              mov    %r13,%rbp
   401117: 41 8b 45 00           mov    0x0(%r13),%eax
   40111b: 83 e8 01              sub    $0x1,%eax
@@ -892,7 +892,7 @@ for (int i = 0; i < 6; i++) {
 
 然后检查一下i是否超出6，如超出则跳出循环
 
-```nasm
+```text
   401128: 41 83 c4 01           add    $0x1,%r12d
   40112c: 41 83 fc 06           cmp    $0x6,%r12d
   401130: 74 21                 je     401153 <phase_6+0x5f>
@@ -900,7 +900,7 @@ for (int i = 0; i < 6; i++) {
 
 否则，便使得`j = i + 1`，进入内循环
 
-```nasm
+```text
   401132: 44 89 e3              mov    %r12d,%ebx
   401135: 48 63 c3              movslq %ebx,%rax
   401138: 8b 04 84              mov    (%rsp,%rax,4),%eax
@@ -916,7 +916,7 @@ for (int i = 0; i < 6; i++) {
 
 最后外循环进行自增和跳转
 
-```nasm
+```text
   40114d: 49 83 c5 04           add    $0x4,%r13 # rbp + 4
   401151: eb c1                 jmp    401114 <phase_6+0x20>
 ```
@@ -945,7 +945,7 @@ for (int i = 0; i < 6; i++) {
 
 这还是第一步...我们继续看看第二步，依旧是个循环
 
-```nasm
+```text
   401153: 48 8d 74 24 18        lea    0x18(%rsp),%rsi
   401158: 4c 89 f0              mov    %r14,%rax
   40115b: b9 07 00 00 00        mov    $0x7,%ecx
@@ -971,7 +971,7 @@ const arr = [1, 2, 3, 4, 5, 6].map(x => 7 - x); // [6, 5, 4, 3, 2, 1]
 
 好，很有精神，那么我们加大力度！
 
-```nasm
+```text
   40116f: be 00 00 00 00        mov    $0x0,%esi
   401174: eb 21                 jmp    401197 <phase_6+0xa3>
   401176: 48 8b 52 08           mov    0x8(%rdx),%rdx
@@ -1009,7 +1009,7 @@ const arr = [1, 2, 3, 4, 5, 6].map(x => 7 - x); // [6, 5, 4, 3, 2, 1]
 
 通过汇编又可以看出，这里将一个地址送进去了`%edx`，这symbol，看起来就是一个链表节点
 
-```nasm
+```text
 (gdb) x/24x 0x6032d0
 0x6032d0 <node1>:       0x0000014c      0x00000001      0x006032e0      0x00000000
 0x6032e0 <node2>:       0x000000a8      0x00000002      0x006032f0      0x00000000
@@ -1037,7 +1037,7 @@ YES，验证完毕，的确如此。且注意，每一个地址都占了4字节�
 
 接着，我们进入了新的汇编代码中
 
-```nasm
+```text
   4011ab: 48 8b 5c 24 20        mov    0x20(%rsp),%rbx
   4011b0: 48 8d 44 24 28        lea    0x28(%rsp),%rax
   4011b5: 48 8d 74 24 50        lea    0x50(%rsp),%rsi
@@ -1053,7 +1053,7 @@ YES，验证完毕，的确如此。且注意，每一个地址都占了4字节�
 
 开始分析
 
-```nasm
+```text
   4011ab: 48 8b 5c 24 20        mov    0x20(%rsp),%rbx
   4011b0: 48 8d 44 24 28        lea    0x28(%rsp),%rax
   4011b5: 48 8d 74 24 50        lea    0x50(%rsp),%rsi
@@ -1075,7 +1075,7 @@ Node** %rax;
 
 记号为：在**这个部分**，栈上第一个节点是`%rbx`即`node1`,第二个节点是`(%rax)`即`node2`
 
-```nasm
+```text
   4011bd: 48 8b 10              mov    (%rax),%rdx
   4011c0: 48 89 51 08           mov    %rdx,0x8(%rcx)
   4011c4: 48 83 c0 08           add    $0x8,%rax
@@ -1105,7 +1105,7 @@ Node** %rax;
 
 好耶，继续前进，我们注意到了这个细节
 
-```nasm
+```text
 4011d2: 48 c7 42 08 00 00 00  movq   $0x0,0x8(%rdx)
 ```
 
@@ -1113,7 +1113,7 @@ Node** %rax;
 
 啊啊啊，终于到最后一步了！！！
 
-```nasm
+```text
   4011da: bd 05 00 00 00        mov    $0x5,%ebp
   4011df: 48 8b 43 08           mov    0x8(%rbx),%rax
   4011e3: 8b 00                 mov    (%rax),%eax
@@ -1186,7 +1186,7 @@ Congratulations! You've defused the bomb!
 
 国际惯例，先把这个函数晒出来
 
-```nasm
+```text
 00000000004015c4 <phase_defused>:
   4015c4: 48 83 ec 78           sub    $0x78,%rsp
   4015c8: 64 48 8b 04 25 28 00  mov    %fs:0x28,%rax
@@ -1227,7 +1227,7 @@ Congratulations! You've defused the bomb!
 
 从上面这段汇编中，我们可以看出这么几点：首先会检查你输入了多少次字符串，如果是6个的话，他就会执行`4015e1`开始的语句
 
-```nasm
+```text
   4015e1: 4c 8d 44 24 10        lea    0x10(%rsp),%r8
   4015e6: 48 8d 4c 24 0c        lea    0xc(%rsp),%rcx
   4015eb: 48 8d 54 24 08        lea    0x8(%rsp),%rdx
@@ -1253,7 +1253,7 @@ Congratulations! You've defused the bomb!
 
 那究竟是什么呢？我们继续往下看
 
-```nasm
+```text
   401604: be 22 26 40 00        mov    $0x402622,%esi
   401609: 48 8d 7c 24 10        lea    0x10(%rsp),%rdi
   40160e: e8 25 fd ff ff        callq  401338 <strings_not_equal>
@@ -1270,7 +1270,7 @@ But finding it and solving it are quite different...
 
 好，很有精神，我们开始分析`secret_phase`
 
-```nasm
+```text
 0000000000401242 <secret_phase>:
   401242: 53                    push   %rbx
   401243: e8 56 02 00 00        callq  40149e <read_line>
@@ -1306,7 +1306,7 @@ long      strtol( const char          *str, char          **str_end, int base );
 
 接着自然而然，我们就要解析一下`fun7`了
 
-```nasm
+```text
 0000000000401204 <fun7>:
   401204: 48 83 ec 08           sub    $0x8,%rsp
   401208: 48 85 ff              test   %rdi,%rdi
