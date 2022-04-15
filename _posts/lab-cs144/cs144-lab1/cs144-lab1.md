@@ -10,7 +10,7 @@ description: 实现一个StreamAssembler吧
 
 ## 前言
 
-在清明假后的某一个风和日丽的下午，某个不知天高地厚的同学，开始了 CS144 的 lab。迅速地做好 lab0 之后，他信心大涨，开始自信甚至差点自负起来
+在清明假后的某一个风和日丽的下午，某个不知天高地厚的同学，开始了 CS144 的 lab。迅速地做好 lab0 之后，他信心大涨，开始自信甚至差点自负起来(划去)
 
 Lab0 是要我们写`webget`，一个使用了 OS 提供的 TCP 协议和 byte stream 抽象从 Internet 上 fetch 网页的程序。简的来说就是用 DNS 解析出目的主机的地址，与其建立起 socket，自行构建一个 HTTP 请求信息，通过请求获取网页信息。再根据 lab 给出的提示，自行实现一个 in-memory reliable 的 `ByteStream`
 
