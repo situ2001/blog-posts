@@ -5,7 +5,7 @@ date: 2022-04-15 10:15:00
 tags:
 permalink: c2ae7dad9398/
 categories: CS144
-description:
+description: 实现一个StreamAssembler吧
 ---
 
 ## 前言
@@ -14,7 +14,7 @@ description:
 
 Lab0 是要我们写`webget`，一个使用了 OS 提供的 TCP 协议和 byte stream 抽象从 Internet 上 fetch 网页的程序。简的来说就是用 DNS 解析出目的主机的地址，与其建立起 socket，自行构建一个 HTTP 请求信息，通过请求获取网页信息。再根据 lab 给出的提示，自行实现一个 in-memory reliable 的 `ByteStream`
 
-数据在计算机网络中，是通过分组传送的。如果反映在运输层，就是一个一个 segment，并且实际上，这些包还不一定是顺序到达的，绝大部分是乱序到达的，并且还有可能丢包重传等的问题存在。这个时候，我们就得实现一个对这些 segment 进行重组的工具。
+数据在计算机网络中，是通过分组传送的。如果反映在运输层，就是一个一个 segment，并且实际上，这些包还不一定是顺序到达的，绝大部分是乱序到达的，并且还有可能丢包重传，包被修改等的问题存在。这个时候，我们就得实现一个对这些 segment 进行重组的工具。
 
 而这就是 Lab1 的实现产物`StreamReassembler`要做的事情。
 
