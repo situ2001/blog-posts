@@ -26,7 +26,7 @@ Lab0 是要我们写`webget`，一个使用了 OS 提供的 TCP 协议和 byte s
 
 这是我们的`StreamReassembler`的所在的位置，再结合它组装子串的功能，也就很容易想明白为什么它处于这个位置了。
 
-![CSS144 TCP Socket](./CS144TCPSocket.jpg)
+![CS144 TCPSocket](./CS144TCPSocket.jpg)
 
 ## 实现
 
