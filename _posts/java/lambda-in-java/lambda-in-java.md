@@ -7,8 +7,6 @@ categories: Java
 
 我之前一直以为Java里头的Lambda表达式就是SAM的语法糖...
 
-<!-- more -->
-
 ## 萌新认知
 
 说起Lambda表达式这个东西啊，我之前是在梁勇的教材里面的anonymous inner class部分看到的。书上是用JavaFX来举例的，那我换个简单的例子，我们知道new一个Thread，可以这样。

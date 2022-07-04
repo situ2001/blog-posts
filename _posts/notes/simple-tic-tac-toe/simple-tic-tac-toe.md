@@ -7,8 +7,6 @@ categories: 笔记
 
 (个人笔记) 就算是玩具项目，做完也会有不少收获——主要是对gradle和groovy的初步认识
 
-<!-- more -->
-
 这次学到了包管理工具和jar相关，还有一门脚本语言Groovy。
 
 包管理工具常见的有maven和gradle，我选择了后者。

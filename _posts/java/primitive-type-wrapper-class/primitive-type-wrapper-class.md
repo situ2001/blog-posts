@@ -7,8 +7,6 @@ categories: Java
 
 基操，见得多了，只不过之前没往里头摸。行文诡异，可能错漏百出，也许为午后昏睡过久所致。
 
-<!-- more -->
-
 众所周知，在Java中，有primitive type和wrapper class。它们之间可以相互转化。比如下面的代码是合法的。
 
 ``` java

@@ -7,8 +7,6 @@ categories: 笔记
 
 ~~Web安全方向试探路~~(2020/05/23追更，已经决定，以后想成为一个Front-end Engineer了)
 
-<!-- more -->
-
 ## 写在前面
 
 由于最近想探一下CTF的web方向，并且这些知识就算放在以后也挺有用，于是便开始了HTML/CSS和JavaScript的基础性学习。

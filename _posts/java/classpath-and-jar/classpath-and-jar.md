@@ -7,8 +7,6 @@ categories: Java
 
 学Java，怎能不知道classpath和jar呢？
 
-<!-- more -->
-
 ## classpath
 
 `classpath`，顾名思义就是class path，即class的路径。网上一搜，很多文章都是关于java在windows下的环境变量配置的，但我觉得不应该在环境变量里头设置classpath。为什么呢？请看我胡乱分析

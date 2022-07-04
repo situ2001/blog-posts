@@ -7,8 +7,6 @@ categories: JavaScript
 
 模拟实现 call, apply 和 bind
 
-<!-- more -->
-
 唉，广州疫情又开始有苗头了，待在室内写博客比干啥都好。
 
 ## Function.prototype.call

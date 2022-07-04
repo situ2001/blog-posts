@@ -7,8 +7,6 @@ categories: Java
 
 为什么我会突然想写一篇毫无卵用的文章...
 
-<!-- more -->
-
 众所周知，在学习Java或者JavaScript（亦或者更多其他的OOP语言）的时候，到面向对象部分，一定会碰到reference variable吧。即是对对象的引用变量。
 
 然后来到调用方法传参的时候，会有这种东西

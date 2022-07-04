@@ -9,8 +9,6 @@ categories: JavaScript
 
 ~~更新于高数大物考前一天~~
 
-<!-- more -->
-
 ## this
 
 > A property of an execution context (global, function or eval) that, in non–strict mode, is always a reference to an object and in strict mode can be any value.

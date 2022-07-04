@@ -7,8 +7,6 @@ categories: JavaScript
 
 不知道的话，读代码的时候估计会很懵吧。
 
-<!-- more -->
-
 ## 动机
 
 看过《JavaScript: The Good Parts》，里面有说，var这种东西，算是(?)一个糟粕。于是我就想写篇文章记录一下咯。

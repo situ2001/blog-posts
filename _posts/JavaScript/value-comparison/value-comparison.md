@@ -7,8 +7,6 @@ categories: JavaScript
 
 inspired by 海绵宝宝meme（
 
-<!-- more -->
-
 ## 起因
 
 如图所示（其实是因为不熟悉，导致平时用起来有点抗拒

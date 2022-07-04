@@ -7,8 +7,6 @@ categories: JavaScript
 
 (笔记向)新加进来的(ES6)，是第几个primitive来着？
 
-<!-- more -->
-
 > Symbol is a primitive type for unique identifiers.
 
 期末复习周快到了，我还是想记录一下之前所了解的JS primitive -- symbol。
