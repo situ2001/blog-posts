@@ -2,7 +2,6 @@
 title: 辛丑年 三月
 comments: false
 date: 2021-03-30 21:30:00
-permalink: monthly_notes/2021-03/
 categories: 月记
 ---
 

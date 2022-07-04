@@ -2,7 +2,6 @@
 title: 初识抽象与接口
 date: 2020-10-22 16:24:00
 tags:
-permalink: de7e01688b2c/
 categories: Java
 ---
 

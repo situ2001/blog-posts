@@ -3,7 +3,6 @@ title: Java使用者眼中的C++面向对象
 comments: true
 date: 2021-04-07 15:00:00
 tags:
-permalink: a4fbad73ad9c/
 categories: 笔记
 ---
 

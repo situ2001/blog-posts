@@ -2,7 +2,6 @@
 title: 辛丑年 一月
 comments: false
 date: 2021-02-03 23:59:59
-permalink: monthly_notes/2021-01/
 categories: 月记
 ---
 

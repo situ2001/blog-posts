@@ -3,7 +3,6 @@ title: JavaScript之symbol
 comments: true
 date: 2021-06-16 19:10:00
 tags:
-permalink: 4eba787ff8b0/
 categories: JavaScript
 ---
 

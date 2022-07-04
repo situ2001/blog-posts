@@ -3,7 +3,6 @@ title: JavaScript之What is this
 comments: true
 date: 2021-07-11 11:30:00
 tags:
-permalink: f7dd0265df9c/
 categories: JavaScript
 ---
 

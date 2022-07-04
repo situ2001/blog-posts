@@ -3,7 +3,6 @@ title: 庚子年 冬月
 date: 2020-11-08 17:26:57
 tags:
 comments: false
-permalink: monthly_notes/2020-11/
 categories: 月记
 ---
 

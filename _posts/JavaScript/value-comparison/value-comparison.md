@@ -3,7 +3,6 @@ title: JavaScript之值的比较
 comments: true
 date: 2021-04-24 23:44:00
 tags:
-permalink: d2b42a9c0258/
 categories: JavaScript
 ---
 

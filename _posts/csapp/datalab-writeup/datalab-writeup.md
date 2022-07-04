@@ -3,7 +3,6 @@ title: Writeup for DataLab
 comments: true
 date: 2021-09-13 17:10:00
 tags: 
-permalink: b6ff43544fda/
 description: CS:APP的DataLab事后复盘
 categories: CS:APP
 ---

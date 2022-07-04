@@ -2,7 +2,6 @@
 title: 辛丑年 六月
 comments: false
 date: 2021-07-14 12:54:32
-permalink: monthly_notes/2021-06/
 categories: 月记
 ---
 

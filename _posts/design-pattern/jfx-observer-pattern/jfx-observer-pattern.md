@@ -3,7 +3,6 @@ title: JavaFX与观察者模式
 comments: true
 date: 2021-01-14 05:14:19
 tags:
-permalink: cab8b78811bf/
 categories: 设计模式
 ---
 
