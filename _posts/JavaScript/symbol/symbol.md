@@ -2,7 +2,6 @@
 title: JavaScript之symbol
 comments: true
 date: 2021-06-16 19:10:00
-tags:
 categories: JavaScript
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 初识类与对象
 date: 2020-09-22 16:44:53
-tags:
 categories: Java
 ---
 此文记录了咱对Java OOP的初步理解

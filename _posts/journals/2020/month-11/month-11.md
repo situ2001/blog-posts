@@ -1,7 +1,6 @@
 ---
 title: 庚子年 冬月
 date: 2020-11-08 17:26:57
-tags:
 comments: false
 categories: 月记
 ---

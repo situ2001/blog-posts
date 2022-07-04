@@ -1,7 +1,6 @@
 ---
 title: 庚子年 十月
 date: 2020-10-24 22:27:48
-tags:
 comments: false
 categories: 月记
 ---

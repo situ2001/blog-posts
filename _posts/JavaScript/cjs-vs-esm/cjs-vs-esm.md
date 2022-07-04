@@ -2,7 +2,6 @@
 title: CJS和ESM
 comments: true
 date: 2022-03-31 10:15:00
-tags:
 categories: JavaScript
 description: CommonJS 和 ESM 的一些区别
 ---

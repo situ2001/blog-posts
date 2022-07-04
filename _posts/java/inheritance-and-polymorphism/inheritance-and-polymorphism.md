@@ -1,7 +1,6 @@
 ---
 title: 初识继承与多态
 date: 2020-10-14 19:00:00
-tags:
 categories: Java
 ---
 

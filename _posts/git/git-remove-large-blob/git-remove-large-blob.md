@@ -2,7 +2,6 @@
 title: 从git仓库中移除无用的大文件
 comments: true
 date: 2022-04-04 13:45:00
-tags:
 categories: git
 description: commit一时爽，事后火葬场
 ---

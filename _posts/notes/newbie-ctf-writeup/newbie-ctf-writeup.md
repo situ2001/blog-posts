@@ -1,7 +1,6 @@
 ---
 title: 记一次CTF新生赛
 date: 2020-11-08 14:02:20
-tags:
 categories: 随笔
 ---
 
