@@ -1,12 +1,12 @@
 ---
-title: MacOS下使用指纹来允许sudo命令
+title: macOS下使用指纹来允许sudo命令
 comments: true
 date: 2022-09-17 17:30:00
 categories: 教程
 description: 指尖一放 轻轻通过 可谓是懒人最爱的操作
 ---
 
-每一次在 MacOS 的终端输入`sudo`的时候都要输一遍管理员密码，实属麻烦。
+每一次在 macOS 的终端输入`sudo`的时候都要输一遍管理员密码，实属麻烦。
 
 今天，题主已经忍无可忍了——必须要把指纹允许 sudo 的操作提上日程！
 
