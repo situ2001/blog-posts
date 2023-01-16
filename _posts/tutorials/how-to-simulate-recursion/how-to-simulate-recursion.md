@@ -16,7 +16,7 @@ description: 在JS下模拟递归
 
 在此之前，先定义二叉树的节点，以及构建一颗二叉树。
 
-```js
+```javascript
 class TreeNode {
   constructor(val, left, right) {
     this.val = val;
@@ -36,7 +36,7 @@ const root = new TreeNode(
 
 很简单很自然，就不多说了。
 
-```js
+```javascript
 const traverse = (root) => {
   if (!root) {
     return;
@@ -51,7 +51,7 @@ const traverse = (root) => {
 
 把之前的力扣解答拿过来。这里的栈是临时存放二叉树节点的，这个跟模拟递归过程差的有点远，不妨说是模拟中序遍历的过程。
 
-```js
+```javascript
 /** iterative
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {
@@ -103,7 +103,7 @@ PS：这里的`ret`指令，可以简单地理解为 JS 的`return`。函数执�
 1. 调用栈
 2. 栈帧（包括了函数参数以及函数的 PC 指针）
 
-```js
+```javascript
 const stack = [];
 
 class StackFrame {
@@ -116,7 +116,7 @@ class StackFrame {
 
 再想想，PC 地址什么时候需要被保存到调用栈上？一般是该函数调用其他函数的时候，需要保存 PC 信息。那么我们可以将中序遍历划分为若干段。
 
-```js
+```javascript
 const traverse = (root) => {
   // pc = 0
   if (!root) {
@@ -131,7 +131,7 @@ const traverse = (root) => {
 
 拥有这些背景知识后，我们就可以转化过来了。如下所示。
 
-```js
+```javascript
 const simulate = () => {
   const stack = [];
   stack.push(new StackFrame(root, 0)); // invoke traverse(root)
@@ -162,7 +162,7 @@ const simulate = () => {
 
 模拟出来的迭代已经有了，那我们就可以顺手转化为迭代器了。实现`Symbol.iterator`生成器即可。该迭代器类维护一个调用栈。
 
-```js
+```javascript
 class TreeIterator {
   constructor(root) {
     this.stack = [];
@@ -193,7 +193,7 @@ class TreeIterator {
 
 调用一下
 
-```js
+```javascript
 console.log([...new TreeIterator(root)]); // [1, 2, 3, 4, 5, 6, 7]
 ```
 
